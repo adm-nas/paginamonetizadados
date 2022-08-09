@@ -20,7 +20,7 @@ body {
 }
 
 .cabecalho-imagem {
-    height: 72px;
+    height: 52px;
 }
 
 .cabecalho-menu {
@@ -63,7 +63,7 @@ body {
 .conteudo-principal-escrito-subtitulo {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 30px;
     color: aliceblue;
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 .conteudo-principal-imagem {
-    height: 220px;
+    height: 260px;
 }
 
 .conteudo-secundario {
@@ -101,7 +101,7 @@ body {
     padding-top: 49px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 35px;
     color: aliceblue;
     margin-bottom: 16px;
 }
@@ -114,12 +114,26 @@ body {
 }
 
 .rodape {
-    padding: 32px;
+    padding: 18px;
     border-top: 0.4px solid #fff2e7;
 }
 
 .rodape-imagem {
-    height: 78px;
+    height: 100px;
     display: block;
     margin: 0 auto;
+}
+
+.rodape-paragrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: aliceblue;
+    align-items: center;
+}   
+    
 }
